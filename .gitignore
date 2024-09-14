@@ -1,0 +1,53 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcuserdatad
+*.xcscmblueprint
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+#
+.build/
+.swiftpm/xcode/package.xcworkspace/
+Package.resolved
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+
+# Carthage
+#
+Carthage/Build/
+
+# Accio dependency management
+#
+.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Firebase generated files
+#
+google-services.json
+GoogleService-Info.plist
+
+# Ignore .env files, sensitive environment variables
+#
+.env
+.env.*
+
+# Xcode specific
+#
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+xcuserdata
